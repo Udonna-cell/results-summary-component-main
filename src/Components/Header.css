@@ -1,0 +1,30 @@
+.header-container {
+  background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+  text-align: center;
+  padding: 1rem 3rem 2rem 3rem;
+  color: hsl(0, 0%, 100%);
+  border-radius: 0 0 1.5rem 1.5rem;
+}
+.header-container > section {
+  padding: 3rem 3.5rem;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  border-radius: 100%;
+  display: inline-block;
+  /* flex-direction: column;
+  justify-content: center; */
+  align-items: center;
+  margin: 1rem auto;
+}
+h2,
+h3 {
+  font-weight: 800;
+  text-transform: capitalize;
+  margin: 1rem;
+}
+h3,
+p {
+  color: hsla(0, 0%, 100%,0.7);
+}
+p:first-letter {
+  text-transform: capitalize
+}

@@ -1,0 +1,74 @@
+main {
+  padding: 1.5rem 1rem 1rem 0;
+}
+main h2 {
+  /* margin: 1.5rem 0; */
+}
+h3.Reaction {
+  color: hsl(0, 100%, 67%);
+}
+h3.Memory {
+  color: hsl(39, 100%, 56%);
+}
+h3.Verbal {
+  color: hsl(166, 100%, 37%);
+}
+h3.Visual {
+  color: hsl(234, 85%, 45%);
+}
+
+section.Reaction {
+  background-color: hsla(0, 100%, 67%, 0.2);
+}
+section.Memory {
+  background-color: hsla(39, 100%, 56%, 0.2);
+}
+section.Verbal {
+  background-color: hsla(166, 100%, 37%, 0.2);
+}
+section.Visual {
+  background-color: hsla(234, 85%, 45%, 0.2);
+}
+
+section {
+  border-radius: 0.6rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+}
+
+section > div:last-child > p {
+  color: hsla(224, 30%, 27%, 0.6);
+  font-size: x-large;
+  font-weight: 900;
+}
+section > div:last-child > p > span {
+  color: hsl(224, 30%, 27%);
+}
+section > div:first-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background: hsl(224, 30%, 27%);
+  color: hsl(0, 0%, 100%);
+  padding: 1.25rem;
+  margin: 2.5rem auto 0 auto;
+  font-size: x-large;
+  font-weight: 900;
+  text-transform: capitalize;
+  border: none;
+  border-radius: 5rem;
+  display: block;
+  width: 85%;
+}
+
+button:active {
+  background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));;
+}
